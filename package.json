@@ -1,0 +1,19 @@
+{
+  "name": "gerador-crud-stn",
+  "version": "1.0.0",
+  "description": "Módulo gerador de classes java típicas em sistemas desenvolvidos pela STN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosis-stn/gerador-crud-stn.git"
+  },
+  "author": "Fabio dos Santos Barbosa<fabio.s.barbosa@tesouro.gov.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosis-stn/gerador-crud-stn/issues"
+  },
+  "homepage": "https://github.com/cosis-stn/gerador-crud-stn#readme"
+}
