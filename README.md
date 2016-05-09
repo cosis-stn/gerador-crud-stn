@@ -5,6 +5,7 @@ Utilitário para geração de classes java no padrão utilizado para sistemas in
 Projeto desenvolvido pelo time de desenvolvimento da Secretaria do Tesouro Nacional.
 
 ##Instalação
+npm i stn-gerar-crud-java -g
 
 ##Uso
 Abrir um prompt de comando e utilizar o comando:stnGerarCrudJava
