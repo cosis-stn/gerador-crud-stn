@@ -42,7 +42,7 @@ prompt.get(schema,function(err,result){
 	escreverArquivo(caminhoEntidade,'',modeloEntidade);
 	escreverArquivo(caminhoRepositorio,'DAO',modeloRepositorio);
 	escreverArquivo(caminhoServico,'Service',modeloServico);
-	escreverArquivo(caminhoEndpoint,'Endpoint',modeloEndpoint);
+	escreverArquivo(caminhoEndpoint,'Endpoint',modeloEndpoint); 
 });
 
 //função responsável por escrever os arquivos
