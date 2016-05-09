@@ -1,10 +1,10 @@
 {
-  "name": "gerar-crud-java",
-  "version": "1.0.1",
+  "name": "stn-gerar-crud-java",
+  "version": "1.0.0",
   "description": "Utilitário gerador de classes java para aplicações da Secretaria do Tesouro Nacional",  
   "preferGlobal": true,
   "bin": {
-    "gerarCrudJava": "index.js"
+    "stnGerarCrudJava": "index.js"
   },
   "author": "Fabio dos Santos Barbosa<fabio.s.barbosa@tesouro.gov.br>",
   "license": "ISC",
