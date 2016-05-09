@@ -1,6 +1,6 @@
 {
   "name": "gerar-crud-java",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilitário gerador de classes java para aplicações da Secretaria do Tesouro Nacional",  
   "preferGlobal": true,
   "bin": {

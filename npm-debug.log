@@ -1,92 +1,97 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install',
-1 verbose cli   'gerar-crud-java' ]
+1 verbose cli   'publish' ]
 2 info using npm@3.6.0
 3 info using node@v4.2.6
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly fetchPackageMetaData gerar-crud-java
-8 silly fetchNamedPackageData gerar-crud-java
-9 silly mapToRegistry name gerar-crud-java
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry https://registry.npmjs.org/
-12 silly mapToRegistry uri https://registry.npmjs.org/gerar-crud-java
-13 verbose request uri https://registry.npmjs.org/gerar-crud-java
-14 verbose request no auth needed
-15 info attempt registry request try #1 at 17:09:56
-16 verbose request using bearer token for auth
-17 verbose request id 0d9b0dce20256ade
-18 http request GET https://registry.npmjs.org/gerar-crud-java
-19 http 200 https://registry.npmjs.org/gerar-crud-java
-20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-20 verbose headers   etag: '"AS5DM9M9ME245C1EYDASZ0QH4"',
-20 verbose headers   'content-type': 'application/json',
-20 verbose headers   'cache-control': 'max-age=300',
-20 verbose headers   'content-length': '1340',
-20 verbose headers   'accept-ranges': 'bytes',
-20 verbose headers   date: 'Mon, 09 May 2016 20:09:57 GMT',
-20 verbose headers   via: '1.1 varnish',
-20 verbose headers   connection: 'keep-alive',
-20 verbose headers   'x-served-by': 'cache-atl6228-ATL',
-20 verbose headers   'x-cache': 'MISS',
-20 verbose headers   'x-cache-hits': '0',
-20 verbose headers   'x-timer': 'S1462824597.817526,VS0,VE56',
-20 verbose headers   vary: 'Accept-Encoding' }
-21 silly get cb [ 200,
-21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-21 silly get     etag: '"AS5DM9M9ME245C1EYDASZ0QH4"',
-21 silly get     'content-type': 'application/json',
-21 silly get     'cache-control': 'max-age=300',
-21 silly get     'content-length': '1340',
-21 silly get     'accept-ranges': 'bytes',
-21 silly get     date: 'Mon, 09 May 2016 20:09:57 GMT',
-21 silly get     via: '1.1 varnish',
-21 silly get     connection: 'keep-alive',
-21 silly get     'x-served-by': 'cache-atl6228-ATL',
-21 silly get     'x-cache': 'MISS',
-21 silly get     'x-cache-hits': '0',
-21 silly get     'x-timer': 'S1462824597.817526,VS0,VE56',
-21 silly get     vary: 'Accept-Encoding' } ]
-22 verbose get saving gerar-crud-java to C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\registry.npmjs.org\gerar-crud-java\.cache.json
-23 verbose correctMkdir C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-24 silly install normalizeTree
-25 silly loadCurrentTree Finishing
-26 silly loadIdealTree Starting
-27 silly install loadIdealTree
-28 silly cloneCurrentTree Starting
-29 silly install cloneCurrentTreeToIdealTree
-30 silly cloneCurrentTree Finishing
-31 silly loadShrinkwrap Starting
-32 silly install loadShrinkwrap
-33 silly loadShrinkwrap Finishing
-34 silly loadAllDepsIntoIdealTree Starting
-35 silly install loadAllDepsIntoIdealTree
-36 silly rollbackFailedOptional Starting
-37 silly rollbackFailedOptional Finishing
-38 silly runTopLevelLifecycles Starting
-39 silly runTopLevelLifecycles Finishing
-40 silly install printInstalled
-41 verbose stack Error: Refusing to install gerar-crud-java as a dependency of itself
-41 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
-41 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
-41 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
-41 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
-41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
-41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
-41 verbose stack     at Array.forEach (native)
-41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
-41 verbose stack     at Array.forEach (native)
-41 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\projetos\\Projetos_Java\\NodeJS\\gerarCrudJava',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle gerar-crud-java@1.0.0~prepublish: gerar-crud-java@1.0.0
+11 silly lifecycle gerar-crud-java@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\fabio.s.barbosa\\AppData\\Roaming\\npm-cache\\gerar-crud-java\\1.0.0\\package.tgz',
+12 verbose tar pack   'C:\\projetos\\Projetos_Java\\NodeJS\\gerarCrudJava' ]
+13 verbose tarball C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package.tgz
+14 verbose folder C:\projetos\Projetos_Java\NodeJS\gerarCrudJava
+15 verbose addLocalTarball adding from inside cache C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd gerar-crud-java@1.0.0
+18 verbose afterAdd C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package\package.json written
+21 silly publish { name: 'gerar-crud-java',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Utilitário gerador de classes java para aplicações da Secretaria do Tesouro Nacional',
+21 silly publish   preferGlobal: true,
+21 silly publish   bin: { gerarCrudJava: 'index.js' },
+21 silly publish   author:
+21 silly publish    { name: 'Fabio dos Santos Barbosa',
+21 silly publish      email: 'fabio.s.barbosa@tesouro.gov.br' },
+21 silly publish   license: 'ISC',
+21 silly publish   dependencies: { prompt: '^1.0.0' },
+21 silly publish   gitHead: '88bf191bb611665c78d016009a85637b69358537',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'gerar-crud-java@1.0.0',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '612f1ada724e33079541b0687e166168f74f8c37',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name gerar-crud-java
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/gerar-crud-java
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\gerar-crud-java\1.0.0\package.tgz
+29 verbose request uri https://registry.npmjs.org/gerar-crud-java
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 17:11:45
+32 verbose request using bearer token for auth
+33 verbose request id bb316cd3e35c4a46
+34 http request PUT https://registry.npmjs.org/gerar-crud-java
+35 http 403 https://registry.npmjs.org/gerar-crud-java
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '95',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Mon, 09 May 2016 20:11:47 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-atl6251-ATL',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1462824706.924566,VS0,VE723',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 verbose request invalidating C:\Users\fabio.s.barbosa\AppData\Roaming\npm-cache\registry.npmjs.org\gerar-crud-java on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : gerar-crud-java
+39 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+39 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+39 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+39 verbose stack     at emitTwo (events.js:87:13)
+39 verbose stack     at Request.emit (events.js:172:7)
+39 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1035:10)
+39 verbose stack     at emitOne (events.js:82:20)
+39 verbose stack     at Request.emit (events.js:169:7)
+39 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:962:12)
+40 verbose statusCode 403
+41 verbose pkgid gerar-crud-java
 42 verbose cwd C:\projetos\Projetos_Java\NodeJS\gerarCrudJava
 43 error Windows_NT 6.3.9600
-44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gerar-crud-java"
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
 45 error node v4.2.6
 46 error npm  v3.6.0
-47 error code ENOSELF
-48 error Refusing to install gerar-crud-java as a dependency of itself
+47 error code E403
+48 error "You cannot publish over the previously published version 1.0.0." : gerar-crud-java
 49 error If you need help, you may report this error at:
 49 error     <https://github.com/npm/npm/issues>
 50 verbose exit [ 1, true ]
